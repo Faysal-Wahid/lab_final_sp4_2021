@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="assets/js/script.js"></script>
+    <title>Team Member's</title> 
+    
+    <style>
+        .customers {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 60%;
+        }
+        
+        .customers td, .customers th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+        
+        .customers tr:nth-child(even){background-color: #f2f2f2;}
+        
+        .customers tr:hover {background-color: #ddd;}
+        
+        .customers th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #04AA6D;
+          color: white;
+        }
+        .team_table{
+           margin: 10px 40px;
+            text-align: center;
+            padding: 10px;
+        }
+        </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-secondary navbar-dark fixed-top shadow">
+        <a class="navbar-brand" href="#"><i class="fab fa-servicestack"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.html"><i class="fas fa-home fa-lg d-md-none pr-2 "></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"><i class="fas fa-info-circle fa-lg d-md-none pr-2"></i> About</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html"><i class="fas fa-rupee-sign fa-2x d-md-none pr-2"></i> Pricing</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="team.html"><i class="fas fa-rupee-sign fa-2x d-md-none pr-2"></i> Team</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><i class="fas fa-user fa-lg d-md-none pr-2"></i> Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signup.html"><i class="fas fa-edit fa-lg d-md-none pr-2"></i>Signup</a>
+            </li>
+  
+          </ul>
+        </div>
+    </nav>
+
+<div class="team_table">
+    <table class="customers">
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <th>Member's Picture</th>
+          <th>Group Member's Name</th>
+          <th>ID</th>
+        </tr>
+        <tr>
+          <td><img src="faysal.png" alt="" style="width: 50%;"></td>
+          <td>Md Faysal Wahid</td>
+          <td>193-15-2978</td>
+        </tr>
+        <tr>
+          <td><img src="tasmin.jpg" alt="" style="width: 50%;"></td>
+          <td>Tasmin Karim</td>
+          <td>193-15-2920</td>
+        </tr>
+        <tr>
+          <td><img src="sanad.jpg" alt="" style="width: 50%;"></td>
+          <td>Sanad Bhowmik</td>
+          <td>193-15-2952</td>
+        </tr>
+        <tr>
+          <td><img src="apon.jpg" alt="" style="width: 50%;"></td>
+          <td>Tonmoy Ahmed Apon</td>
+          <td>193-15-2994</td>
+        </tr>
+        <tr>
+          <td><img src="nishat.jpg" alt="" style="width: 50%;"></td>
+          <td>Nishat Tabassum</td>
+          <td>193-15-2985</td>
+        </tr>
+       
+      </table>
+</div>
+
+
+
+
+<footer>
+    <div class="container-fluid bg-dark text-white pb-4">
+        <div class="row p-4">
+           
+            <div class="col-md-4 col-sm-12 text-center" style="margin-left: 33%;">
+                Follow us on
+                <ul class="list-unstyled list-inline social-icons mt-1" >
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-2x fa-facebook-square"></i></a> </li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-2x fa-google"></i></a> </li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-2x fa-twitter-square"></i></a> </li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-2x fa-instagram"></i></a> </li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-medium fa-2x"></i></a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+       
+    </div>
+</footer>
+</body>
+</html>
